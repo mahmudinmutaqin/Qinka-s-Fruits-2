@@ -412,9 +412,9 @@
 
         // Global Variables configuration setup
         const appId = typeof __app_id !== 'undefined' ? __app_id : 'usaha-keuangan-app';
-        const firebaseConfig = typeof __firebase_config !== 'undefined' 
-            ? JSON.parse(__firebase_config) 
-            : { apiKey: "demo-api-key", authDomain: "demo.firebaseapp.com", projectId: "demo-project" };
+        const firebaseConfig = {apiKey: "AIzaSyCKEhL5BDnpVH1pI8W_gzy3IwivHjFBtK8",authDomain: "kaspro-keuangan.firebaseapp.com",projectId: "kaspro-keuangan",storageBucket: "kaspro-keuangan.firebasestorage.app",
+  messagingSenderId: "21420343431",appId: "1:21420343431:web:77b3fd790ccb8c4eccf822"
+};
 
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
